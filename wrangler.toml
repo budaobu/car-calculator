@@ -1,6 +1,0 @@
-name = "car-calculator"
-compatibility_date = "2023-11-21"
-compatibility_flags = ["nodejs_compat"]
-
-[build]
-command = "next build"

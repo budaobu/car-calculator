@@ -20,7 +20,7 @@ const mileageOptions: Option[] = [
 ]
 
 const chargingOptions: Option[] = [
-  { value: "no-charger", label: "家里不���装充电桩", score: 0 },
+  { value: "no-charger", label: "家里不能装充电桩", score: 0 },
   { value: "public-charger", label: "通勤地点有公共桩", score: 1 },
   { value: "home-charger", label: "家里能装充电桩", score: 2 },
   { value: "company-charger", label: "公司充电桩免费", score: 3 },
@@ -225,7 +225,7 @@ export default function CarCalculator() {
         </Card>
       </main>
       <div className="pb-4 text-center text-sm text-muted-foreground">
-        Made with v0.dev · Inspired by <a href="https://x.com/Mr_BlackMirror/status/1861060834233135168" rel="nofollow" className="hover:underline">@黑镜先生</a>
+        Made with <a href="https://v0.dev/" rel="nofollow" className="hover:underline">v0.dev</a> · Inspired by <a href="https://x.com/Mr_BlackMirror/status/1861060834233135168" rel="nofollow" className="hover:underline">@黑镜先生</a>
       </div>
     </div>
   )

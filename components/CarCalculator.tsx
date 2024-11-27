@@ -224,7 +224,7 @@ export default function CarCalculator() {
           </CardContent>
         </Card>
       </main>
-      <div className="mt-2 flex justify-center items-center">
+      <!-- <div className="mt-2 flex justify-center items-center">
         <a
           href="https://github.com/budaobu/car-calculator/"
           target="_blank"
@@ -234,7 +234,7 @@ export default function CarCalculator() {
           <Github className="w-4 h-4" />
           <span>Github</span>
         </a>
-      </div>
+      </div> -->
       <div className="pb-4 text-center text-sm text-muted-foreground">
         Made with <a href="https://v0.dev/" rel="nofollow" className="hover:underline">v0.dev</a> · Inspired by <a href="https://x.com/Mr_BlackMirror/status/1861060834233135168" rel="nofollow" className="hover:underline">@黑镜先生</a>
       </div>

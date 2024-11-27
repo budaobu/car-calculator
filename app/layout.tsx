@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     locale: 'zh_CN',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://car.livemorefun.com/og-image.png',
         width: 1200,
         height: 630,
         alt: '买电车还是油车计算器'
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: '买电车还是油车计算器 - 帮您做出明智的选择',
     description: '通过年行驶里程、充电条件、使用场景等多个维度，科学计算是否适合购买电动汽车或燃油车。',
     images: [
-      '/og-image.png'
+      'https://car.livemorefun.com/og-image.png'
     ]
   },
 }

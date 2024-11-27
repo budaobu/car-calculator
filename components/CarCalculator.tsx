@@ -20,7 +20,7 @@ const mileageOptions: Option[] = [
 ]
 
 const chargingOptions: Option[] = [
-  { value: "no-charger", label: "家里不能装充电桩", score: 0 },
+  { value: "no-charger", label: "家里不���装充电桩", score: 0 },
   { value: "public-charger", label: "通勤地点有公共桩", score: 1 },
   { value: "home-charger", label: "家里能装充电桩", score: 2 },
   { value: "company-charger", label: "公司充电桩免费", score: 3 },

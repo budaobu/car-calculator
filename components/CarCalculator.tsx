@@ -1,6 +1,7 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useTheme } from 'next-themes'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
@@ -54,6 +55,12 @@ export default function CarCalculator() {
     city: -1,
     purchase: -1,
   })
+  const [mounted, setMounted] = useState(false)
+  const { theme, setTheme } = useTheme()
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const totalScore = Object.values(scores).reduce((a, b) => a + b, 0)
 
@@ -64,6 +71,8 @@ export default function CarCalculator() {
   }
 
   const recommendation = getRecommendation(totalScore)
+
+  if (!mounted) return null
 
   return (
     <div className="min-h-screen bg-background dark:bg-gray-900 transition-colors duration-300">

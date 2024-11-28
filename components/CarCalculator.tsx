@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Car, BatteryChargingIcon, FuelIcon, Building2, MapPin, Github } from 'lucide-react'
+import { Car, BatteryChargingIcon, FuelIcon, Building2, MapPin } from 'lucide-react'
 
 interface Option {
   value: string
@@ -224,20 +224,7 @@ export default function CarCalculator() {
           </CardContent>
         </Card>
       </main>
-      <div className="mt-2 flex justify-center items-center">
-        <a
-          href="https://github.com/budaobu/car-calculator"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          className="inline-flex items-center space-x-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
-        >
-          <Github className="w-4 h-4" />
-          <span>Github</span>
-        </a>
-      </div>
-      <div className="pb-4 text-center text-sm text-muted-foreground">
-        Made with <a href="https://v0.dev/" rel="nofollow" className="hover:underline">v0.dev</a> · Inspired by <a href="https://x.com/Mr_BlackMirror/status/1861060834233135168" rel="nofollow" className="hover:underline">@Mr_BlackMirror</a>
-      </div>
     </div>
   )
 }
+

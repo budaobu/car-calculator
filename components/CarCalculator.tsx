@@ -75,7 +75,7 @@ export default function CarCalculator() {
   if (!mounted) return null
 
   return (
-    <div className="min-h-screen bg-background dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-background text-foreground dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -right-5 top-0 text-muted-foreground/20">
           <Car className="w-40 h-40 rotate-12" />

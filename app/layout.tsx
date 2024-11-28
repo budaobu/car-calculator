@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       'https://car.livemorefun.com/og-image.png'
     ]
   },
+  other: {
+    'google-site-verification': 'Dl2hErIClumSH-emLl5nE6clGY7fxud_g7dVwIfFPEg',
+  },
 }
 
 export default function RootLayout({

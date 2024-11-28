@@ -20,12 +20,12 @@ export default function ContactPage() {
                   your.email@example.com
                 </a>
               </li> */}
-              <li>
-                <a href="https://x.com/lizhaoshui" target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-600 hover:underline">
+              {/* <li>
+                <a href="https://x.com/yourname" target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-600 hover:underline">
                   <Twitter className="w-5 h-5 mr-2" />
-                  @lizhaoshui
+                  @yourname
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://github.com/budaobu/car-calculator" target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-600 hover:underline">
                   <Github className="w-5 h-5 mr-2" />
